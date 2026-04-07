@@ -1,0 +1,865 @@
+--- Oracle 数据库异常事件分析报告 ---
+监控关键字: ORA, WARNING, ERROR, TERMINAL, CHECKPOINT
+============================================================
+
+【事件 1】
+Wed Jan 15 13:33:17 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 15-JAN-2025 13:33:17
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=63295))
+--------------------------------------------------
+
+【事件 2】
+Wed Jan 15 17:45:19 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 15-JAN-2025 17:45:19
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=65162))
+--------------------------------------------------
+
+【事件 3】
+Wed Jan 15 17:49:02 2025
+ORA-01555 caused by SQL statement below (SQL ID: 48v6k1d4s1txt, Query Duration=53336 sec, SCN: 0x0012.b2649f73):
+select * from qyhYzkbOpIncomeCharge t where t.DATEID = :1  and t.ORGID = :2
+--------------------------------------------------
+
+【事件 4】
+Wed Jan 15 18:06:37 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 15-JAN-2025 18:06:37
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=59950))
+--------------------------------------------------
+
+【事件 5】
+Wed Jan 15 18:06:54 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 15-JAN-2025 18:06:54
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=61694))
+--------------------------------------------------
+
+【事件 6】
+Wed Jan 15 18:07:16 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 15-JAN-2025 18:07:16
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=63184))
+--------------------------------------------------
+
+【事件 7】
+Thu Jan 16 11:26:28 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 11:26:28
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=60640))
+--------------------------------------------------
+
+【事件 8】
+Thu Jan 16 12:13:10 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:13:10
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=51614))
+--------------------------------------------------
+
+【事件 9】
+Thu Jan 16 12:18:29 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:18:29
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=65532))
+--------------------------------------------------
+
+【事件 10】
+Thu Jan 16 12:19:15 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:19:15
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=61981))
+--------------------------------------------------
+
+【事件 11】
+Thu Jan 16 12:19:59 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:19:59
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=49297))
+--------------------------------------------------
+
+【事件 12】
+Thu Jan 16 12:36:46 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:36:46
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=32574))
+--------------------------------------------------
+
+【事件 13】
+Thu Jan 16 12:37:05 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 12:37:05
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=32986))
+--------------------------------------------------
+
+【事件 14】
+Thu Jan 16 13:34:21 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 13:34:21
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=61717))
+--------------------------------------------------
+
+【事件 15】
+Thu Jan 16 13:43:45 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 13:43:45
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=62226))
+--------------------------------------------------
+
+【事件 16】
+Thu Jan 16 17:02:57 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:02:57
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=59691))
+--------------------------------------------------
+
+【事件 17】
+Thu Jan 16 17:10:07 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:10:07
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=60261))
+--------------------------------------------------
+
+【事件 18】
+Thu Jan 16 17:23:30 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:23:30
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=59715))
+--------------------------------------------------
+
+【事件 19】
+Thu Jan 16 17:38:21 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:38:21
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=59381))
+--------------------------------------------------
+
+【事件 20】
+Thu Jan 16 17:40:01 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:40:01
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=52369))
+--------------------------------------------------
+
+【事件 21】
+Thu Jan 16 17:53:07 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 17:53:07
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=52367))
+--------------------------------------------------
+
+【事件 22】
+Thu Jan 16 18:39:34 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 18:39:34
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=65162))
+--------------------------------------------------
+
+【事件 23】
+Thu Jan 16 19:19:57 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 16-JAN-2025 19:19:57
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.21.21)(PORT=49178))
+--------------------------------------------------
+
+【事件 24】
+Fri Jan 17 11:10:14 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 17-JAN-2025 11:10:14
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=63879))
+--------------------------------------------------
+
+【事件 25】
+Fri Jan 17 18:45:22 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 17-JAN-2025 18:45:22
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.119.199)(PORT=59557))
+--------------------------------------------------
+
+【事件 26】
+Sat Jan 18 02:00:56 2025
+ARC2: Archive log rejected (thread 2 sequence 546856) at host 'standby'
+FAL[server, ARC2]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 27】
+Sat Jan 18 02:02:19 2025
+ARC0: Archive log rejected (thread 2 sequence 546861) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 28】
+Sat Jan 18 02:03:34 2025
+ARC3: Archive log rejected (thread 2 sequence 546866) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 29】
+Sat Jan 18 02:20:19 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+--------------------------------------------------
+
+【事件 30】
+Sat Jan 18 02:20:19 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+--------------------------------------------------
+
+【事件 31】
+Sat Jan 18 02:21:21 2025
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j007_325177.trc:
+ORA-12012: Զִҵ 1344
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 32】
+Sat Jan 18 02:23:55 2025
+LNS: Standby redo logfile selected for thread 2 sequence 546877 for destination LOG_ARCHIVE_DEST_2
+ARC0: Archive log rejected (thread 2 sequence 546875) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 33】
+Sat Jan 18 02:31:43 2025
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j001_324464.trc:
+ORA-12012: Զִҵ 1286
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 34】
+Sat Jan 18 03:03:37 2025
+ARC3: Archive log rejected (thread 2 sequence 546902) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 35】
+Sat Jan 18 03:36:39 2025
+LNS: Standby redo logfile selected for thread 2 sequence 546916 for destination LOG_ARCHIVE_DEST_2
+ARC0: Archive log rejected (thread 2 sequence 546915) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 36】
+Sat Jan 18 07:22:17 2025
+Archived Log entry 2186683 added for thread 2 sequence 546947 ID 0x5ed7e36a dest 1:
+ARC0: Archive log rejected (thread 2 sequence 546947) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 37】
+Sat Jan 18 18:31:31 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 18-JAN-2025 18:31:31
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=49232))
+--------------------------------------------------
+
+【事件 38】
+Sat Jan 18 19:08:05 2025
+Fatal NI connect error 12170.
+VERSION INFORMATION:
+TNS for Linux: Version 11.2.0.4.0 - Production
+Oracle Bequeath NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+TCP/IP NT Protocol Adapter for Linux: Version 11.2.0.4.0 - Production
+Time: 18-JAN-2025 19:08:05
+Tracing not turned on.
+Tns error struct:
+ns main err code: 12535
+TNS-12535: TNS:operation timed out
+ns secondary err code: 12560
+nt main err code: 505
+TNS-00505: Operation timed out
+nt secondary err code: 110
+nt OS err code: 0
+Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=10.24.71.33)(PORT=51001))
+--------------------------------------------------
+
+【事件 39】
+Sun Jan 19 02:00:38 2025
+ARC3: Archive log rejected (thread 2 sequence 547055) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 40】
+Sun Jan 19 02:00:40 2025
+ARC2: Archive log rejected (thread 2 sequence 547056) at host 'standby'
+FAL[server, ARC2]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+Archived Log entry 2186979 added for thread 2 sequence 547058 ID 0x5ed7e36a dest 1:
+--------------------------------------------------
+
+【事件 41】
+Sun Jan 19 02:01:58 2025
+ARC3: Archive log rejected (thread 2 sequence 547061) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 42】
+Sun Jan 19 02:19:03 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j004_314920.trc:
+ORA-12012: Զִҵ 1285
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 43】
+Sun Jan 19 02:23:47 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+--------------------------------------------------
+
+【事件 44】
+Sun Jan 19 02:23:47 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j004_314920.trc:
+ORA-12012: Զִҵ 1285
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 45】
+Sun Jan 19 02:31:57 2025
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j007_320539.trc:
+ORA-12012: Զִҵ 1286
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 46】
+Sun Jan 19 03:03:14 2025
+ARC3: Archive log rejected (thread 2 sequence 547116) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 47】
+Sun Jan 19 03:36:47 2025
+ARC2: Archive log rejected (thread 2 sequence 547129) at host 'standby'
+FAL[server, ARC2]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+ARC2: Archive log rejected (thread 2 sequence 547130) at host 'standby'
+FAL[server, ARC2]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 48】
+Sun Jan 19 19:18:24 2025
+ORA-01555 caused by SQL statement below (SQL ID: 48v6k1d4s1txt, Query Duration=58696 sec, SCN: 0x0012.cb77da47):
+select * from qyhYzkbOpIncomeCharge t where t.DATEID = :1  and t.ORGID = :2
+--------------------------------------------------
+
+【事件 49】
+Mon Jan 20 01:01:36 2025
+ARC3: Archive log rejected (thread 2 sequence 547237) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 50】
+Mon Jan 20 01:02:21 2025
+ARC3: Archive log rejected (thread 2 sequence 547243) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 51】
+Mon Jan 20 02:01:18 2025
+ARC0: Archive log rejected (thread 2 sequence 547257) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+ARC0: Archive log rejected (thread 2 sequence 547258) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 52】
+Mon Jan 20 02:03:10 2025
+ARC3: Archive log rejected (thread 2 sequence 547270) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 53】
+Mon Jan 20 02:15:15 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+--------------------------------------------------
+
+【事件 54】
+Mon Jan 20 02:15:15 2025
+ORA-1652: unable to extend temp segment by 128 in tablespace                 HISSPACE_TEMP
+--------------------------------------------------
+
+【事件 55】
+Mon Jan 20 02:15:30 2025
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j008_308566.trc:
+ORA-12012: Զִҵ 1344
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 56】
+Mon Jan 20 02:17:56 2025
+ARC0: Archive log rejected (thread 2 sequence 547277) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 57】
+Mon Jan 20 02:18:58 2025
+ARC3: Archive log rejected (thread 2 sequence 547280) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 58】
+Mon Jan 20 02:22:46 2025
+Errors in file /oracle/app/oracle/diag/rdbms/orcl/orcl2/trace/orcl2_j004_302126.trc:
+ORA-12012: Զִҵ 1286
+ORA-12008: ʵ廯ͼˢ·дڴ
+ORA-01652: ޷ͨ 128 (ڱռ HISSPACE_TEMP ) չ temp
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 2809
+ORA-06512:  "SYS.DBMS_SNAPSHOT", line 3025
+ORA-06512:  "SYS.DBMS_IREFRESH", line 689
+ORA-06512:  "SYS.DBMS_REFRESH", line 195
+ORA-06512:  line 1
+--------------------------------------------------
+
+【事件 59】
+Mon Jan 20 02:25:06 2025
+ARC0: Archive log rejected (thread 2 sequence 547286) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 60】
+Mon Jan 20 02:27:33 2025
+ARC3: Archive log rejected (thread 2 sequence 547292) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+ARC3: Archive log rejected (thread 2 sequence 547294) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 61】
+Mon Jan 20 03:01:36 2025
+ARC0: Archive log rejected (thread 2 sequence 547305) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+ARC0: Archive log rejected (thread 2 sequence 547306) at host 'standby'
+FAL[server, ARC0]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 62】
+Mon Jan 20 03:04:03 2025
+ARC3: Archive log rejected (thread 2 sequence 547320) at host 'standby'
+FAL[server, ARC3]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 63】
+Mon Jan 20 03:44:44 2025
+ARC2: Archive log rejected (thread 2 sequence 547333) at host 'standby'
+FAL[server, ARC2]: FAL archive failed, see trace file.
+ARCH: FAL archive failed. Archiver continuing
+ORACLE Instance orcl2 - Archival Error. Archiver continuing.
+--------------------------------------------------
+
+【事件 64】
+Mon Jan 20 15:51:54 2025
+ORA-01555 caused by SQL statement below (SQL ID: 48v6k1d4s1txt, Query Duration=46308 sec, SCN: 0x0012.d19ec87a):
+select * from qyhYzkbOpIncomeCharge t where t.DATEID = :1  and t.ORGID = :2
+--------------------------------------------------
+
+over!

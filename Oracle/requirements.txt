@@ -1,0 +1,12 @@
+pandas
+matplotlib
+html2text
+pyNmonAnalyzer
+openai
+python-docx
+requests
+mammoth
+beautifulsoup4
+
+
+

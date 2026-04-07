@@ -1,0 +1,54 @@
+系统工作峰值时间段
+
+| Snap Id| Snap Time| Sessions| Cursors/Session| Instances  
+---|---|---|---|---|---  
+Begin Snap:| 73343| 20-Jan-25 08:00:22| 493|  2.1| 2  
+End Snap:| 73349| 20-Jan-25 11:00:59| 560|  1.9| 2  
+Elapsed:|  |  180.61 (mins)|  |  |   
+DB Time:|  |  710.67 (mins)|  |  |   
+
+数据库实例性能的各项命中率
+
+Buffer Nowait %:|  100.00| Redo NoWait %:|  100.00  
+Buffer Hit %:|  99.98| In-memory Sort %:|  100.00  
+Library Hit %:|  98.19| Soft Parse %:|  97.19  
+Execute to Parse %:|  73.94| Latch Hit %:|  99.99  
+Parse CPU to Parse Elapsd %:|  79.00| % Non-Parse CPU:|  99.19  
+
+数据库实例资源消耗时间模型
+
+Statistic Name| Time (s)| % of DB Time  
+---|---|---  
+sql execute elapsed time| 41,466.14| 97.25  
+DB CPU| 27,929.36| 65.50  
+parse time elapsed| 397.25| 0.93  
+hard parse elapsed time| 315.54| 0.74  
+PL/SQL execution elapsed time| 107.39| 0.25  
+connection management call elapsed time| 36.30| 0.09  
+hard parse (sharing criteria) elapsed time| 12.02| 0.03  
+failed parse elapsed time| 7.18| 0.02  
+sequence load elapsed time| 2.66| 0.01  
+PL/SQL compilation elapsed time| 1.85| 0.00  
+inbound PL/SQL rpc elapsed time| 0.36| 0.00  
+repeated bind elapsed time| 0.19| 0.00  
+hard parse (bind mismatch) elapsed time| 0.07| 0.00  
+DB time| 42,639.94|   
+background elapsed time| 1,204.52|   
+background cpu time| 946.74|   
+
+数据库前台等待事件Top10
+
+Event| Waits| Total Wait Time (sec)| Wait Avg(ms)| % DB time| Wait Class  
+---|---|---|---|---|---  
+DB CPU|  | 27.9K|  | 65.5|   
+control file sequential read| 1,437,851| 511.8| 0| 1.2| System I/O  
+log file sync| 224,920| 258.1| 1| .6| Commit  
+gc cr block busy| 107,095| 214.3| 2| .5| Cluster  
+db file sequential read| 503,183| 202| 0| .5| User I/O  
+gc current block 2-way| 578,238| 188| 0| .4| Cluster  
+SQL*Net message from dblink| 60,038| 187.9| 3| .4| Network  
+gc current grant busy| 134,466| 161.9| 1| .4| Cluster  
+gc cr block 2-way| 312,763| 136.9| 0| .3| Cluster  
+SQL*Net more data to client| 4,522,962| 47| 0| .1| Network  
+
+over!

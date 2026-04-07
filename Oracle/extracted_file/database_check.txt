@@ -1,0 +1,732 @@
+数据库版本号和实例名
+
+VERSION                                                                                                                 
+--------------------------------------------------------------------------------                                        
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production                                            
+PL/SQL Release 11.2.0.4.0 - Production                                                                                  
+CORE	11.2.0.4.0	Production                                                                                              
+TNS for Linux: Version 11.2.0.4.0 - Production                                                                          
+NLSRTL Version 11.2.0.4.0 - Production                                                                                  
+
+
+INSTANCE_NAME                                                                                                           
+----------------                                                                                                        
+orcl2                                                                                                                   
+
+2.
+
+------------------------------------------------------------
+
+数据库初始化参数
+
+NAME                                     VALUE                ISDEFAULT ISMODIFIED                                      
+---------------------------------------- -------------------- --------- ----------                                      
+O7_DICTIONARY_ACCESSIBILITY              FALSE                TRUE      FALSE                                           
+active_instance_count                                         TRUE      FALSE                                           
+aq_tm_processes                          1                    TRUE      FALSE                                           
+archive_lag_target                       0                    TRUE      FALSE                                           
+asm_diskgroups                                                TRUE      FALSE                                           
+asm_diskstring                                                TRUE      FALSE                                           
+asm_power_limit                          1                    TRUE      FALSE                                           
+asm_preferred_read_failure_groups                             TRUE      FALSE                                           
+audit_file_dest                          /oracle/app/oracle/a FALSE     FALSE                                           
+                                         dmin/orcl/adump                                                                
+                                                                                                                        
+audit_sys_operations                     FALSE                TRUE      FALSE                                           
+audit_syslog_level                                            TRUE      FALSE                                           
+audit_trail                              NONE                 FALSE     FALSE                                           
+awr_snapshot_time_offset                 0                    TRUE      FALSE                                           
+background_core_dump                     partial              TRUE      FALSE                                           
+background_dump_dest                     /oracle/app/oracle/d TRUE      FALSE                                           
+                                         iag/rdbms/orcl/orcl2                                                           
+                                         /trace                                                                         
+                                                                                                                        
+backup_tape_io_slaves                    FALSE                TRUE      FALSE                                           
+bitmap_merge_area_size                   1048576              TRUE      FALSE                                           
+blank_trimming                           FALSE                TRUE      FALSE                                           
+buffer_pool_keep                                              TRUE      FALSE                                           
+buffer_pool_recycle                                           TRUE      FALSE                                           
+cell_offload_compaction                  ADAPTIVE             TRUE      FALSE                                           
+cell_offload_decryption                  TRUE                 TRUE      FALSE                                           
+cell_offload_parameters                                       TRUE      FALSE                                           
+cell_offload_plan_display                AUTO                 TRUE      FALSE                                           
+cell_offload_processing                  TRUE                 TRUE      FALSE                                           
+cell_offloadgroup_name                                        TRUE      FALSE                                           
+circuits                                                      TRUE      FALSE                                           
+client_result_cache_lag                  3000                 TRUE      FALSE                                           
+client_result_cache_size                 0                    TRUE      FALSE                                           
+clonedb                                  FALSE                TRUE      FALSE                                           
+cluster_database                         TRUE                 FALSE     FALSE                                           
+cluster_database_instances               2                    FALSE     FALSE                                           
+cluster_interconnects                                         TRUE      FALSE                                           
+commit_logging                                                TRUE      FALSE                                           
+commit_point_strength                    1                    TRUE      FALSE                                           
+commit_wait                                                   TRUE      FALSE                                           
+commit_write                                                  TRUE      FALSE                                           
+compatible                               11.2.0.4.0           FALSE     FALSE                                           
+control_file_record_keep_time            7                    TRUE      FALSE                                           
+control_files                            +DGDATA/orcl/control FALSE     FALSE                                           
+                                         file/control01.ctl,                                                            
+                                         +DGDATA/orcl/control                                                           
+                                         file/control02.ctl                                                             
+                                                                                                                        
+control_management_pack_access           DIAGNOSTIC+TUNING    TRUE      FALSE                                           
+core_dump_dest                           /oracle/app/oracle/d TRUE      FALSE                                           
+                                         iag/rdbms/orcl/orcl2                                                           
+                                         /cdump                                                                         
+                                                                                                                        
+cpu_count                                112                  TRUE      FALSE                                           
+create_bitmap_area_size                  8388608              TRUE      FALSE                                           
+create_stored_outlines                                        TRUE      FALSE                                           
+cursor_bind_capture_destination          memory+disk          TRUE      FALSE                                           
+cursor_sharing                           EXACT                TRUE      FALSE                                           
+cursor_space_for_time                    FALSE                TRUE      FALSE                                           
+db_16k_cache_size                        0                    TRUE      FALSE                                           
+db_2k_cache_size                         0                    TRUE      FALSE                                           
+db_32k_cache_size                        0                    TRUE      FALSE                                           
+db_4k_cache_size                         0                    TRUE      FALSE                                           
+db_8k_cache_size                         0                    TRUE      FALSE                                           
+db_block_buffers                         0                    TRUE      FALSE                                           
+db_block_checking                        FALSE                TRUE      FALSE                                           
+db_block_checksum                        TYPICAL              TRUE      FALSE                                           
+db_block_size                            8192                 FALSE     FALSE                                           
+db_cache_advice                          ON                   TRUE      FALSE                                           
+db_cache_size                            0                    TRUE      FALSE                                           
+db_create_file_dest                                           TRUE      FALSE                                           
+db_create_online_log_dest_1                                   TRUE      FALSE                                           
+db_create_online_log_dest_2                                   TRUE      FALSE                                           
+db_create_online_log_dest_3                                   TRUE      FALSE                                           
+db_create_online_log_dest_4                                   TRUE      FALSE                                           
+db_create_online_log_dest_5                                   TRUE      FALSE                                           
+db_domain                                                     FALSE     FALSE                                           
+db_file_multiblock_read_count            128                  TRUE      FALSE                                           
+db_file_name_convert                     /home/oracle/app/ora FALSE     FALSE                                           
+                                         data/orcl, +dgdata/o                                                           
+                                         rcl/datafile                                                                   
+                                                                                                                        
+db_files                                 200                  TRUE      FALSE                                           
+db_flash_cache_file                                           TRUE      FALSE                                           
+db_flash_cache_size                      0                    TRUE      FALSE                                           
+db_flashback_retention_target            1440                 TRUE      FALSE                                           
+db_keep_cache_size                       0                    TRUE      FALSE                                           
+db_lost_write_protect                    NONE                 TRUE      FALSE                                           
+db_name                                  orcl                 FALSE     FALSE                                           
+db_recovery_file_dest                    +dgdata              FALSE     FALSE                                           
+db_recovery_file_dest_size               53687091200          FALSE     FALSE                                           
+db_recycle_cache_size                    0                    TRUE      FALSE                                           
+db_securefile                            PERMITTED            TRUE      FALSE                                           
+db_ultra_safe                            OFF                  TRUE      FALSE                                           
+db_unique_name                           orcl                 FALSE     FALSE                                           
+db_unrecoverable_scn_tracking            TRUE                 TRUE      FALSE                                           
+db_writer_processes                      14                   TRUE      FALSE                                           
+dbwr_io_slaves                           0                    TRUE      FALSE                                           
+ddl_lock_timeout                         0                    TRUE      FALSE                                           
+deferred_segment_creation                TRUE                 TRUE      FALSE                                           
+dg_broker_config_file1                   /oracle/app/oracle/p TRUE      FALSE                                           
+                                         roduct/11.2.0/db_1/d                                                           
+                                         bs/dr1orcl.dat                                                                 
+                                                                                                                        
+dg_broker_config_file2                   /oracle/app/oracle/p TRUE      FALSE                                           
+                                         roduct/11.2.0/db_1/d                                                           
+                                         bs/dr2orcl.dat                                                                 
+                                                                                                                        
+dg_broker_start                          FALSE                TRUE      FALSE                                           
+diagnostic_dest                          /oracle/app/oracle   FALSE     FALSE                                           
+disk_asynch_io                           TRUE                 TRUE      FALSE                                           
+dispatchers                              (PROTOCOL=TCP) (SERV FALSE     FALSE                                           
+                                         ICE=orclXDB)                                                                   
+                                                                                                                        
+distributed_lock_timeout                 60                   TRUE      FALSE                                           
+dml_locks                                20204                TRUE      FALSE                                           
+dnfs_batch_size                          4096                 TRUE      FALSE                                           
+dst_upgrade_insert_conv                  TRUE                 TRUE      FALSE                                           
+enable_ddl_logging                       FALSE                TRUE      FALSE                                           
+enable_goldengate_replication            TRUE                 TRUE      SYSTEM_MOD                                      
+encrypt_new_tablespaces                  CLOUD_ONLY           TRUE      FALSE                                           
+event                                                         TRUE      FALSE                                           
+fal_client                                                    TRUE      FALSE                                           
+fal_server                                                    TRUE      FALSE                                           
+fast_start_io_target                     0                    TRUE      FALSE                                           
+fast_start_mttr_target                   0                    TRUE      FALSE                                           
+fast_start_parallel_rollback             LOW                  TRUE      FALSE                                           
+file_mapping                             FALSE                TRUE      FALSE                                           
+fileio_network_adapters                                       TRUE      FALSE                                           
+filesystemio_options                     none                 TRUE      FALSE                                           
+fixed_date                                                    TRUE      FALSE                                           
+gcs_server_processes                     5                    TRUE      FALSE                                           
+global_context_pool_size                                      TRUE      FALSE                                           
+global_names                             FALSE                TRUE      FALSE                                           
+global_txn_processes                     1                    TRUE      FALSE                                           
+hash_area_size                           131072               TRUE      FALSE                                           
+hi_shared_memory_address                 0                    TRUE      FALSE                                           
+hs_autoregister                          TRUE                 TRUE      FALSE                                           
+ifile                                                         TRUE      FALSE                                           
+instance_groups                                               TRUE      FALSE                                           
+instance_name                            orcl2                FALSE     FALSE                                           
+instance_number                          2                    FALSE     FALSE                                           
+instance_type                            RDBMS                TRUE      FALSE                                           
+instant_restore                          FALSE                TRUE      FALSE                                           
+java_jit_enabled                         TRUE                 TRUE      FALSE                                           
+java_max_sessionspace_size               0                    TRUE      FALSE                                           
+java_pool_size                           0                    TRUE      FALSE                                           
+java_restrict                            none                 TRUE      FALSE                                           
+java_soft_sessionspace_limit             0                    TRUE      FALSE                                           
+job_queue_processes                      1000                 TRUE      FALSE                                           
+large_pool_size                          0                    TRUE      FALSE                                           
+ldap_directory_access                    NONE                 TRUE      FALSE                                           
+ldap_directory_sysauth                   no                   TRUE      FALSE                                           
+license_max_sessions                     0                    TRUE      FALSE                                           
+license_max_users                        0                    TRUE      FALSE                                           
+license_sessions_warning                 0                    TRUE      FALSE                                           
+listener_networks                                             TRUE      FALSE                                           
+local_listener                           (DESCRIPTION=(ADDRES FALSE     FALSE                                           
+                                         S_LIST=(ADDRESS=(PRO                                                           
+                                         TOCOL=TCP)(HOST=10.2                                                           
+                                         4.1.12)(PORT=1521)))                                                           
+                                         )                                                                              
+                                                                                                                        
+lock_name_space                                               TRUE      FALSE                                           
+lock_sga                                 FALSE                TRUE      FALSE                                           
+log_archive_config                                            TRUE      FALSE                                           
+log_archive_dest                                              TRUE      FALSE                                           
+log_archive_dest_1                       LOCATION=+dgdata/orc FALSE     FALSE                                           
+                                         l/archivelog                                                                   
+                                                                                                                        
+log_archive_dest_10                                           TRUE      FALSE                                           
+log_archive_dest_11                                           TRUE      FALSE                                           
+log_archive_dest_12                                           TRUE      FALSE                                           
+log_archive_dest_13                                           TRUE      FALSE                                           
+log_archive_dest_14                                           TRUE      FALSE                                           
+log_archive_dest_15                                           TRUE      FALSE                                           
+log_archive_dest_16                                           TRUE      FALSE                                           
+log_archive_dest_17                                           TRUE      FALSE                                           
+log_archive_dest_18                                           TRUE      FALSE                                           
+log_archive_dest_19                                           TRUE      FALSE                                           
+log_archive_dest_2                       SERVICE=standby LGWR FALSE     FALSE                                           
+                                          ASYNC VALID_FOR=(ON                                                           
+                                         LINE_LOGFILES,PRIMAR                                                           
+                                         Y_ROLE) DB_UNIQUE_NA                                                           
+                                         ME=orcl                                                                        
+                                                                                                                        
+log_archive_dest_20                                           TRUE      FALSE                                           
+log_archive_dest_21                                           TRUE      FALSE                                           
+log_archive_dest_22                                           TRUE      FALSE                                           
+log_archive_dest_23                                           TRUE      FALSE                                           
+log_archive_dest_24                                           TRUE      FALSE                                           
+log_archive_dest_25                                           TRUE      FALSE                                           
+log_archive_dest_26                                           TRUE      FALSE                                           
+log_archive_dest_27                                           TRUE      FALSE                                           
+log_archive_dest_28                                           TRUE      FALSE                                           
+log_archive_dest_29                                           TRUE      FALSE                                           
+log_archive_dest_3                                            TRUE      SYSTEM_MOD                                      
+log_archive_dest_30                                           TRUE      FALSE                                           
+log_archive_dest_31                                           TRUE      FALSE                                           
+log_archive_dest_4                                            TRUE      FALSE                                           
+log_archive_dest_5                                            TRUE      FALSE                                           
+log_archive_dest_6                                            TRUE      FALSE                                           
+log_archive_dest_7                                            TRUE      FALSE                                           
+log_archive_dest_8                                            TRUE      FALSE                                           
+log_archive_dest_9                                            TRUE      FALSE                                           
+log_archive_dest_state_1                 enable               TRUE      FALSE                                           
+log_archive_dest_state_10                enable               TRUE      FALSE                                           
+log_archive_dest_state_11                enable               TRUE      FALSE                                           
+log_archive_dest_state_12                enable               TRUE      FALSE                                           
+log_archive_dest_state_13                enable               TRUE      FALSE                                           
+log_archive_dest_state_14                enable               TRUE      FALSE                                           
+log_archive_dest_state_15                enable               TRUE      FALSE                                           
+log_archive_dest_state_16                enable               TRUE      FALSE                                           
+log_archive_dest_state_17                enable               TRUE      FALSE                                           
+log_archive_dest_state_18                enable               TRUE      FALSE                                           
+log_archive_dest_state_19                enable               TRUE      FALSE                                           
+log_archive_dest_state_2                 enable               FALSE     SYSTEM_MOD                                      
+log_archive_dest_state_20                enable               TRUE      FALSE                                           
+log_archive_dest_state_21                enable               TRUE      FALSE                                           
+log_archive_dest_state_22                enable               TRUE      FALSE                                           
+log_archive_dest_state_23                enable               TRUE      FALSE                                           
+log_archive_dest_state_24                enable               TRUE      FALSE                                           
+log_archive_dest_state_25                enable               TRUE      FALSE                                           
+log_archive_dest_state_26                enable               TRUE      FALSE                                           
+log_archive_dest_state_27                enable               TRUE      FALSE                                           
+log_archive_dest_state_28                enable               TRUE      FALSE                                           
+log_archive_dest_state_29                enable               TRUE      FALSE                                           
+log_archive_dest_state_3                 DEFER                TRUE      SYSTEM_MOD                                      
+log_archive_dest_state_30                enable               TRUE      FALSE                                           
+log_archive_dest_state_31                enable               TRUE      FALSE                                           
+log_archive_dest_state_4                 enable               TRUE      FALSE                                           
+log_archive_dest_state_5                 enable               TRUE      FALSE                                           
+log_archive_dest_state_6                 enable               TRUE      FALSE                                           
+log_archive_dest_state_7                 enable               TRUE      FALSE                                           
+log_archive_dest_state_8                 enable               TRUE      FALSE                                           
+log_archive_dest_state_9                 enable               TRUE      FALSE                                           
+log_archive_duplex_dest                                       TRUE      FALSE                                           
+log_archive_format                       %t_%s_%r.dbf         FALSE     FALSE                                           
+log_archive_local_first                  TRUE                 TRUE      FALSE                                           
+log_archive_max_processes                4                    TRUE      FALSE                                           
+log_archive_min_succeed_dest             1                    TRUE      FALSE                                           
+log_archive_start                        FALSE                TRUE      FALSE                                           
+log_archive_trace                        0                    TRUE      FALSE                                           
+log_buffer                               341655552            TRUE      FALSE                                           
+log_checkpoint_interval                  0                    TRUE      FALSE                                           
+log_checkpoint_timeout                   1800                 TRUE      FALSE                                           
+log_checkpoints_to_alert                 FALSE                TRUE      FALSE                                           
+log_file_name_convert                    /home/oracle/app/ora FALSE     FALSE                                           
+                                         data/orcl, +dgdata/o                                                           
+                                         rcl/onlinelog                                                                  
+                                                                                                                        
+max_dispatchers                                               TRUE      FALSE                                           
+max_dump_file_size                       unlimited            TRUE      FALSE                                           
+max_enabled_roles                        150                  TRUE      FALSE                                           
+max_shared_servers                                            TRUE      FALSE                                           
+memory_max_target                        0                    TRUE      FALSE                                           
+memory_target                            0                    TRUE      FALSE                                           
+nls_calendar                             GREGORIAN            TRUE      MODIFIED                                        
+nls_comp                                 BINARY               TRUE      MODIFIED                                        
+nls_currency                             $                    TRUE      MODIFIED                                        
+nls_date_format                          yyyy-mm-dd HH24:MI:S TRUE      MODIFIED                                        
+                                         S                                                                              
+                                                                                                                        
+nls_date_language                        AMERICAN             TRUE      MODIFIED                                        
+nls_dual_currency                        $                    TRUE      MODIFIED                                        
+nls_iso_currency                         AMERICA              TRUE      MODIFIED                                        
+nls_language                             AMERICAN             TRUE      MODIFIED                                        
+nls_length_semantics                     BYTE                 TRUE      FALSE                                           
+nls_nchar_conv_excp                      FALSE                TRUE      FALSE                                           
+nls_numeric_characters                   .,                   TRUE      MODIFIED                                        
+nls_sort                                 BINARY               TRUE      MODIFIED                                        
+nls_territory                            AMERICA              TRUE      MODIFIED                                        
+nls_time_format                          HH.MI.SSXFF AM       TRUE      MODIFIED                                        
+nls_time_tz_format                       HH.MI.SSXFF AM TZR   TRUE      MODIFIED                                        
+nls_timestamp_format                     DD-MON-RR HH.MI.SSXF TRUE      MODIFIED                                        
+                                         F AM                                                                           
+                                                                                                                        
+nls_timestamp_tz_format                  DD-MON-RR HH.MI.SSXF TRUE      MODIFIED                                        
+                                         F AM TZR                                                                       
+                                                                                                                        
+object_cache_max_size_percent            10                   TRUE      FALSE                                           
+object_cache_optimal_size                102400               TRUE      FALSE                                           
+olap_page_pool_size                      0                    TRUE      FALSE                                           
+open_cursors                             300                  FALSE     FALSE                                           
+open_links                               4                    TRUE      FALSE                                           
+open_links_per_instance                  4                    TRUE      FALSE                                           
+optimizer_capture_sql_plan_baselines     FALSE                TRUE      FALSE                                           
+optimizer_dynamic_sampling               2                    TRUE      FALSE                                           
+optimizer_features_enable                11.2.0.4             TRUE      FALSE                                           
+optimizer_index_caching                  0                    TRUE      FALSE                                           
+optimizer_index_cost_adj                 100                  TRUE      FALSE                                           
+optimizer_mode                           ALL_ROWS             TRUE      FALSE                                           
+optimizer_secure_view_merging            TRUE                 TRUE      FALSE                                           
+optimizer_use_invisible_indexes          FALSE                TRUE      FALSE                                           
+optimizer_use_pending_statistics         FALSE                TRUE      FALSE                                           
+optimizer_use_sql_plan_baselines         TRUE                 TRUE      FALSE                                           
+os_authent_prefix                        ops$                 TRUE      FALSE                                           
+os_roles                                 FALSE                TRUE      FALSE                                           
+parallel_adaptive_multi_user             TRUE                 TRUE      FALSE                                           
+parallel_automatic_tuning                FALSE                TRUE      FALSE                                           
+parallel_degree_limit                    CPU                  TRUE      FALSE                                           
+parallel_degree_policy                   MANUAL               TRUE      FALSE                                           
+parallel_execution_message_size          16384                TRUE      FALSE                                           
+parallel_force_local                     FALSE                TRUE      FALSE                                           
+parallel_instance_group                                       TRUE      FALSE                                           
+parallel_io_cap_enabled                  FALSE                TRUE      FALSE                                           
+parallel_max_servers                     2970                 TRUE      FALSE                                           
+parallel_min_percent                     0                    TRUE      FALSE                                           
+parallel_min_servers                     0                    TRUE      FALSE                                           
+parallel_min_time_threshold              AUTO                 TRUE      FALSE                                           
+parallel_server                          TRUE                 TRUE      FALSE                                           
+parallel_server_instances                2                    TRUE      FALSE                                           
+parallel_servers_target                  1792                 TRUE      FALSE                                           
+parallel_threads_per_cpu                 2                    TRUE      FALSE                                           
+permit_92_wrap_format                    TRUE                 TRUE      FALSE                                           
+pga_aggregate_target                     53687091200          FALSE     FALSE                                           
+plscope_settings                         IDENTIFIERS:NONE     TRUE      FALSE                                           
+plsql_ccflags                                                 TRUE      FALSE                                           
+plsql_code_type                          INTERPRETED          TRUE      FALSE                                           
+plsql_debug                              FALSE                TRUE      FALSE                                           
+plsql_optimize_level                     2                    TRUE      FALSE                                           
+plsql_v2_compatibility                   FALSE                TRUE      FALSE                                           
+plsql_warnings                           DISABLE:ALL          TRUE      FALSE                                           
+pre_page_sga                             FALSE                TRUE      FALSE                                           
+processes                                3000                 FALSE     FALSE                                           
+processor_group_name                                          TRUE      FALSE                                           
+query_rewrite_enabled                    TRUE                 TRUE      FALSE                                           
+query_rewrite_integrity                  enforced             TRUE      FALSE                                           
+rdbms_server_dn                                               TRUE      FALSE                                           
+read_only_open_delayed                   FALSE                TRUE      FALSE                                           
+recovery_parallelism                     0                    TRUE      FALSE                                           
+recyclebin                               on                   TRUE      FALSE                                           
+redo_transport_user                                           TRUE      FALSE                                           
+remote_dependencies_mode                 TIMESTAMP            TRUE      FALSE                                           
+remote_listener                          hisscan:1521         FALSE     FALSE                                           
+remote_login_passwordfile                EXCLUSIVE            FALSE     FALSE                                           
+remote_os_authent                        FALSE                TRUE      FALSE                                           
+remote_os_roles                          FALSE                TRUE      FALSE                                           
+replication_dependency_tracking          TRUE                 TRUE      FALSE                                           
+resource_limit                           TRUE                 TRUE      SYSTEM_MOD                                      
+resource_manager_cpu_allocation          112                  TRUE      FALSE                                           
+resource_manager_plan                                         TRUE      FALSE                                           
+result_cache_max_result                  5                    TRUE      FALSE                                           
+result_cache_max_size                    805306368            TRUE      FALSE                                           
+result_cache_mode                        MANUAL               TRUE      FALSE                                           
+result_cache_remote_expiration           0                    TRUE      FALSE                                           
+resumable_timeout                        0                    TRUE      FALSE                                           
+rollback_segments                                             TRUE      FALSE                                           
+sec_case_sensitive_logon                 FALSE                FALSE     FALSE                                           
+sec_max_failed_login_attempts            10                   TRUE      FALSE                                           
+sec_protocol_error_further_action        CONTINUE             TRUE      FALSE                                           
+sec_protocol_error_trace_action          TRACE                TRUE      FALSE                                           
+sec_return_server_release_banner         FALSE                TRUE      FALSE                                           
+serial_reuse                             disable              TRUE      FALSE                                           
+service_names                            orcl                 FALSE     SYSTEM_MOD                                      
+session_cached_cursors                   50                   TRUE      FALSE                                           
+session_max_open_files                   10                   TRUE      FALSE                                           
+sessions                                 4592                 FALSE     FALSE                                           
+sga_max_size                             161061273600         TRUE      FALSE                                           
+sga_target                               161061273600         FALSE     FALSE                                           
+shadow_core_dump                         PARTIAL              TRUE      FALSE                                           
+shared_memory_address                    0                    TRUE      FALSE                                           
+shared_pool_reserved_size                1154272460           TRUE      FALSE                                           
+shared_pool_size                         0                    TRUE      FALSE                                           
+shared_server_sessions                                        TRUE      FALSE                                           
+shared_servers                           1                    TRUE      FALSE                                           
+skip_unusable_indexes                    TRUE                 TRUE      FALSE                                           
+smtp_out_server                                               TRUE      FALSE                                           
+sort_area_retained_size                  0                    TRUE      FALSE                                           
+sort_area_size                           65536                TRUE      FALSE                                           
+spfile                                   +DGDATA/orcl/spfile/ FALSE     FALSE                                           
+                                         spfile.ora                                                                     
+                                                                                                                        
+sql92_security                           FALSE                TRUE      FALSE                                           
+sql_trace                                FALSE                TRUE      FALSE                                           
+sqltune_category                         DEFAULT              TRUE      FALSE                                           
+standby_archive_dest                     ?/dbs/arch           TRUE      FALSE                                           
+standby_file_management                  AUTO                 FALSE     FALSE                                           
+star_transformation_enabled              FALSE                TRUE      FALSE                                           
+statistics_level                         TYPICAL              TRUE      FALSE                                           
+streams_pool_size                        0                    TRUE      FALSE                                           
+tape_asynch_io                           TRUE                 TRUE      FALSE                                           
+thread                                   2                    FALSE     FALSE                                           
+timed_os_statistics                      0                    TRUE      FALSE                                           
+timed_statistics                         TRUE                 TRUE      FALSE                                           
+trace_enabled                            TRUE                 TRUE      FALSE                                           
+tracefile_identifier                                          TRUE      FALSE                                           
+transactions                             5051                 TRUE      FALSE                                           
+transactions_per_rollback_segment        5                    TRUE      FALSE                                           
+undo_management                          AUTO                 TRUE      FALSE                                           
+undo_retention                           900                  TRUE      FALSE                                           
+undo_tablespace                          UNDOTBS2             FALSE     FALSE                                           
+use_indirect_data_buffers                FALSE                TRUE      FALSE                                           
+use_large_pages                          TRUE                 TRUE      FALSE                                           
+user_dump_dest                           /oracle/app/oracle/d TRUE      FALSE                                           
+                                         iag/rdbms/orcl/orcl2                                                           
+                                         /trace                                                                         
+                                                                                                                        
+utl_file_dir                                                  TRUE      FALSE                                           
+workarea_size_policy                     AUTO                 TRUE      FALSE                                           
+xml_db_events                            enable               TRUE      FALSE                                           
+
+353 rows selected.
+
+6.
+
+------------------------------------------------------------
+
+当前用户数
+
+
+  COUNT(*)                                                                                                              
+----------                                                                                                              
+       467                                                                                                              
+
+
+   INST_ID   COUNT(*)                                                                                                   
+---------- ----------                                                                                                   
+         1        520                                                                                                   
+         2        468                                                                                                   
+
+3.
+
+------------------------------------------------------------
+
+ASM磁盘信息
+
+NAME                 STATE       TYPE   NAME                                                                            
+-------------------- ----------- ------ --------------------                                                            
+PATH                                                                                                                    
+------------------------------------------------------------------------------------------------------------------------
+STATE      TOTAL_MB    FREE_MB                                                                                          
+-------- ---------- ----------                                                                                          
+DGDATA               CONNECTED   EXTERN DGDATA_0000                                                                     
+/dev/mapper/asm-data01                                                                                                  
+NORMAL       512000      40440                                                                                          
+                                                                                                                        
+DGDATA               CONNECTED   EXTERN DGDATA_0001                                                                     
+/dev/mapper/asm-data02                                                                                                  
+NORMAL       512000      40384                                                                                          
+                                                                                                                        
+DGDATA               CONNECTED   EXTERN DGDATA_0002                                                                     
+/dev/mapper/asm-data03                                                                                                  
+NORMAL       512000      40264                                                                                          
+                                                                                                                        
+DGDATA               CONNECTED   EXTERN DGDATA_0003                                                                     
+/dev/mapper/asm-data04                                                                                                  
+NORMAL       512000      40436                                                                                          
+                                                                                                                        
+DGDATA               CONNECTED   EXTERN DGDATA_0004                                                                     
+/dev/mapper/asm-data05                                                                                                  
+NORMAL       512000      40472                                                                                          
+                                                                                                                        
+DGDATA               CONNECTED   EXTERN DGDATA_0005                                                                     
+/dev/mapper/asm-data06                                                                                                  
+NORMAL       512000      40412                                                                                          
+                                                                                                                        
+DGOCR                MOUNTED     NORMAL DGOCR_0000                                                                      
+/dev/mapper/asm-ocr01                                                                                                   
+NORMAL         5120       4776                                                                                          
+                                                                                                                        
+DGOCR                MOUNTED     NORMAL DGOCR_0001                                                                      
+/dev/mapper/asm-ocr02                                                                                                   
+NORMAL         5120       4772                                                                                          
+                                                                                                                        
+DGOCR                MOUNTED     NORMAL DGOCR_0002                                                                      
+/dev/mapper/asm-ocr03                                                                                                   
+NORMAL         5120       4772                                                                                          
+                                                                                                                        
+
+9 rows selected.
+
+
+NAME                 STATE       TYPE     TOTAL_MB    USED_MB    FREE_MB                                                
+-------------------- ----------- ------ ---------- ---------- ----------                                                
+DGDATA               CONNECTED   EXTERN    3072000    2829592     242408                                                
+DGOCR                MOUNTED     NORMAL      15360       1040      14320
+
+------------------------------------------------------------
+
+控制文件的信息
+
+
+STATUS  NAME                                          IS_ BLOCK_SIZE FILE_SIZE_BLKS                                     
+------- --------------------------------------------- --- ---------- --------------                                     
+        +DGDATA/orcl/controlfile/control01.ctl        NO       16384           8536                                     
+        +DGDATA/orcl/controlfile/control02.ctl        NO       16384           8536                                     
+
+5.
+
+------------------------------------------------------------
+
+日志文件信息
+
+GROUP# THREAD#  SEQUENCE#   MBYTES    MEMBERS ARC STATUS   FIRST_CHANGE# FIRST_TIME                                     
+------ ------- ---------- -------- ---------- --- -------- ------------- -------------------                            
+     1       1     505836     1024          2 YES ACTIVE      8.0883E+10 2025-01-20 15:57:14                            
+     2       1     505837     1024          2 NO  CURRENT     8.0885E+10 2025-01-20 16:10:26                            
+     3       1     505830     1024          2 YES INACTIVE    8.0869E+10 2025-01-20 12:27:17                            
+     4       1     505831     1024          2 YES INACTIVE    8.0872E+10 2025-01-20 13:07:14                            
+     5       1     505832     1024          2 YES INACTIVE    8.0875E+10 2025-01-20 13:46:26                            
+     6       1     505833     1024          2 YES INACTIVE    8.0878E+10 2025-01-20 14:26:14                            
+     7       1     505834     1024          2 YES INACTIVE    8.0879E+10 2025-01-20 15:01:14                            
+     8       1     505835     1024          2 YES INACTIVE    8.0882E+10 2025-01-20 15:36:08                            
+     9       2     547380     1024          2 YES INACTIVE    8.0879E+10 2025-01-20 14:49:47                            
+    10       2     547381     1024          2 YES INACTIVE    8.0879E+10 2025-01-20 15:01:14                            
+    11       2     547382     1024          2 YES INACTIVE    8.0880E+10 2025-01-20 15:11:26                            
+    12       2     547383     1024          2 YES INACTIVE    8.0881E+10 2025-01-20 15:22:17                            
+    13       2     547384     1024          2 YES INACTIVE    8.0882E+10 2025-01-20 15:36:08                            
+    14       2     547385     1024          2 NO  CURRENT     8.0883E+10 2025-01-20 15:46:32                            
+    15       2     547378     1024          2 YES INACTIVE    8.0878E+10 2025-01-20 14:26:14                            
+    16       2     547379     1024          2 YES INACTIVE    8.0878E+10 2025-01-20 14:36:26                            
+                          --------                                                                                      
+total                        16384                                                                                      
+
+16 rows selected.
+
+
+GROUP# STATUS   TYPE    MEMBER                                             IS_                                          
+------ -------- ------- -------------------------------------------------- ---                                          
+     2          ONLINE  +DGDATA/orcl/onlinelog/group_2.343.1137865007      NO                                           
+     2          ONLINE  +DGDATA/orcl/onlinelog/group_2.342.1137865011      NO                                           
+     5          ONLINE  +DGDATA/orcl/onlinelog/group_5.341.1137865023      NO                                           
+     5          ONLINE  +DGDATA/orcl/onlinelog/group_5.340.1137865025      NO                                           
+     6          ONLINE  +DGDATA/orcl/onlinelog/group_6.8921.1137865029     NO                                           
+     6          ONLINE  +DGDATA/orcl/onlinelog/group_6.8916.1137865033     NO                                           
+     1          ONLINE  +DGDATA/orcl/onlinelog/group_1.339.1137865147      NO                                           
+     1          ONLINE  +DGDATA/orcl/onlinelog/group_1.338.1137865151      NO                                           
+     3          ONLINE  +DGDATA/orcl/onlinelog/group_3.337.1137865159      NO                                           
+     3          ONLINE  +DGDATA/orcl/onlinelog/group_3.336.1137865161      NO                                           
+     4          ONLINE  +DGDATA/orcl/onlinelog/group_4.333.1137865167      NO                                           
+     4          ONLINE  +DGDATA/orcl/onlinelog/group_4.332.1137865169      NO                                           
+     9          ONLINE  +DGDATA/orcl/onlinelog/group_9.8923.1137865197     NO                                           
+     9          ONLINE  +DGDATA/orcl/onlinelog/group_9.8917.1137865199     NO                                           
+    10          ONLINE  +DGDATA/orcl/onlinelog/group_10.8925.1137865203    NO                                           
+    10          ONLINE  +DGDATA/orcl/onlinelog/group_10.8910.1137865207    NO                                           
+    11          ONLINE  +DGDATA/orcl/onlinelog/group_11.8920.1137865295    NO                                           
+    11          ONLINE  +DGDATA/orcl/onlinelog/group_11.8911.1137865297    NO                                           
+    12          ONLINE  +DGDATA/orcl/onlinelog/group_12.347.1137865303     NO                                           
+    12          ONLINE  +DGDATA/orcl/onlinelog/group_12.346.1137865305     NO                                           
+    13          ONLINE  +DGDATA/orcl/onlinelog/group_13.345.1137865309     NO                                           
+    13          ONLINE  +DGDATA/orcl/onlinelog/group_13.344.1137865313     NO                                           
+    17          STANDBY +DGDATA/orcl/onlinelog/standby17.log               NO                                           
+    18          STANDBY +DGDATA/orcl/onlinelog/standby18.log               NO                                           
+    19          STANDBY +DGDATA/orcl/onlinelog/standby19.log               NO                                           
+    20          STANDBY +DGDATA/orcl/onlinelog/standby20.log               NO                                           
+    21          STANDBY +DGDATA/orcl/onlinelog/standby21.log               NO                                           
+    22          STANDBY +DGDATA/orcl/onlinelog/standby22.log               NO                                           
+    23          STANDBY +DGDATA/orcl/onlinelog/standby23.log               NO                                           
+    24          STANDBY +DGDATA/orcl/onlinelog/standby24.log               NO                                           
+    14          ONLINE  +DGDATA/orcl/onlinelog/group_14.713.1137865317     NO                                           
+    14          ONLINE  +DGDATA/orcl/onlinelog/group_14.549.1137865319     NO                                           
+     7          ONLINE  +DGDATA/orcl/onlinelog/group_7.1801.1137865449     NO                                           
+     7          ONLINE  +DGDATA/orcl/onlinelog/group_7.579.1137865453      NO                                           
+     8          ONLINE  +DGDATA/orcl/onlinelog/group_8.620.1137865457      NO                                           
+     8          ONLINE  +DGDATA/orcl/onlinelog/group_8.599.1137865459      NO                                           
+    15          ONLINE  +DGDATA/orcl/onlinelog/group_15.613.1137865463     NO                                           
+    15          ONLINE  +DGDATA/orcl/onlinelog/group_15.1890.1137865467    NO                                           
+    16          ONLINE  +DGDATA/orcl/onlinelog/group_16.5341.1137865471    NO                                           
+    16          ONLINE  +DGDATA/orcl/onlinelog/group_16.5349.1137865475    NO                                           
+
+40 rows selected.
+
+------------------------------------------------------------
+
+临时文件使用情况
+
+TABLESPACE_NAME      MBYTES STATUS          AUT        MAX                                                              
+--------------- ----------- --------------- --- ----------                                                              
+TEMP                  32767 ONLINE          YES 32767.9844                                                              
+HISSPACE_TEMP         32000 ONLINE          YES      32000                                                              
+WPUB_TEMP                 7 ONLINE          YES       2000                                                              
+WIPB_TEMP                 5 ONLINE          YES       2000                                                              
+WIP_TEMP               2000 ONLINE          YES       2000                                                              
+HTHIS_TEMP               64 ONLINE          YES      32767                                                              
+HT_TEMP                  64 ONLINE          YES      32767                                                              
+MZSF_TEMP                64 ONLINE          YES      32767                                                              
+OP_TEMP                  64 ONLINE          YES      32767                                                              
+YP_TEMP                  64 ONLINE          YES      32767                                                              
+NDNS_TEMP                64 ONLINE          YES      32767                                                              
+LOGIN_TEMP               64 ONLINE          YES      32767                                                              
+BAS_TEMP               2048 ONLINE          YES       4096                                                              
+WRP_TEMP                128 ONLINE          YES       8192                                                              
+URM_TEMP               2048 ONLINE          YES      32000                                                              
+WOP_TEMP               2000 ONLINE          YES       2000                                                              
+WOPB_TEMP                 5 ONLINE          YES       2000                                                              
+USER_TEMP               100 ONLINE          YES       8048                                                              
+WDP_TEMP               2000 ONLINE          YES       2000                                                              
+WDPB_TEMP                 5 ONLINE          YES       2000                                                              
+WMD_TEMP               2000 ONLINE          YES       8000                                                              
+URM_TAS_TEMP           2000 ONLINE          YES       8000                                                              
+URM_BED_TEMP           2000 ONLINE          YES       8000                                                              
+URM_AUTH_TEMP          2000 ONLINE          YES       8000                                                              
+URM_SAS_TEMP           2000 ONLINE          YES       8000                                                              
+WIPN_TEMP               128 ONLINE          YES       8192                                                              
+                -----------                                                                                             
+total                 85689                                                                                             
+
+26 rows selected.
+
+------------------------------------------------------------
+
+--- 预警：表空间使用率超过 85% ---
+TABLESPACE                   SUM_SPACE(M) SUM_BLOCKS USED_SPACE(M) USED_RATE(%) FREE_SPACE(M)
+---------------------------- ------------ ---------- ------------- ------------ -------------
+WDPB                                53313    6824064         51059        95.77          2254
+HISSPACE                          2062254  263968512     2015006.5        97.71       47247.5
+URM_MT_DATA                          4646     594688       4407.25        94.86        238.75
+USERS                               63506    8128768      60745.69        95.65       2760.31
+URM                                 12994    1663232      12368.19        95.18        625.81
+TEMP                                32767    4194176         32715        99.84            52
+HISSPACE_TEMP                       32000    4096000         31922        99.76            78
+WOP_TEMP                             2000     256000          1973        98.65            27
+WDP_TEMP                             2000     256000          1889        94.45           111
+WPUB_TEMP                               7        896             6        85.71             1
+WIP_TEMP                             2000     256000          1892         94.6           108
+------------------------------------------------------------
+
+--- 数据文件自动扩展信息 (仅保留 AUT=YES) ---
+   FILE_ID TABLESPACE_NAME                AUT       MBYTES  MAXGBYTES
+---------- ------------------------------ --- ------------ ----------
+24 BAS                          YES        8192         31
+23 BAS                          YES        8192         31
+81 HISSPACE                     YES       32760         32
+82 HISSPACE                     YES       32760         32
+83 HISSPACE                     YES       32764         32
+86 HISSPACE                     YES       32764         32
+96 HISSPACE                     YES       30668         32
+97 HISSPACE                     YES       20180         32
+98 HISSPACE                     YES       20716         32
+99 HISSPACE                     YES       21516         32
+104 HISSPACE                     YES         100         32
+6 HISSPACE                     YES       32000         31
+7 HISSPACE                     YES       32000         31
+8 HISSPACE                     YES       32000         31
+9 HISSPACE                     YES       32000         31
+49 HISSPACE                     YES       31998         31
+50 HISSPACE                     YES       31994         31
+51 HISSPACE                     YES       31998         31
+52 HISSPACE                     YES       31998         31
+53 HISSPACE                     YES       31998         31
+54 HISSPACE                     YES       31998         31
+55 HISSPACE                     YES       31998         31
+56 HISSPACE                     YES       31998         31
+57 HISSPACE                     YES       31998         31
+58 HISSPACE                     YES       31998         31
+59 HISSPACE                     YES       31994         31
+60 HISSPACE                     YES       31994         31
+61 HISSPACE                     YES       31994         31
+62 HISSPACE                     YES       31996         31
+63 HISSPACE                     YES       31996         31
+64 HISSPACE                     YES       31996         31
+17 HT                           YES        2048         32
+16 HTHIS                        YES        8192         32
+22 LOGIN                        YES        2048         32
+18 MZSF                         YES        8192         32
+21 NDNS                         YES       10240         32
+19 OP                           YES        2048         32
+2 SYSAUX                       YES       17540         32
+1 SYSTEM                       YES       10240         32
+3 UNDOTBS1                     YES       32768         32
+5 UNDOTBS2                     YES       32725         32
+27 URM                          YES        7396         31
+28 URM                          YES        5598         31
+71 URM_AUTH                     YES         500         29
+72 URM_AUTH                     YES         500         29
+70 URM_BED                      YES         500         29
+69 URM_BED                      YES         500         29
+33 URM_MT_DATA                  YES        4646         29
+74 URM_SAS                      YES         500         29
+73 URM_SAS                      YES         500         29
+47 URM_TAS                      YES         500         29
+48 URM_TAS                      YES         500         29
+109 USERS                        YES       10276         32
+4 USERS                        YES       32750         32
+34 WDP                          YES           5          3
+35 WDP                          YES           5          3
+38 WDP                          YES        2048          2
+68 WDPB                         YES       25929         31
+39 WDPB                         YES        8192          8
+36 WDPB                         YES        3000          3
+37 WDPB                         YES        3000          3
+15 WIP                          YES          43          3
+14 WIP                          YES          40          3
+42 WIP                          YES        2048          2
+13 WIPB                         YES          31          3
+12 WIPB                         YES          30          3
+43 WIPB                         YES        8192          8
+113 WIPN                         YES         100          8
+77 WMD                          YES        8192          8
+46 WMD                          YES         500         29
+30 WOP                          YES           7          3
+29 WOP                          YES           8          3
+40 WOP                          YES        2048          2
+76 WOPB                         YES        8192          8
+32 WOPB                         YES        1236          3
+31 WOPB                         YES        8192          3
+41 WOPB                         YES        8192          8
+10 WPUB                         YES        1907          3
+11 WPUB                         YES        1841          3
+45 WPUB                         YES       15360          8
+44 WPUB                         YES        2048          2
+25 WRP                          YES         100          8
+26 WRP                          YES          50          8
+20 YP                           YES        2048         32
+------------------------------------------------------------
+
+over!
