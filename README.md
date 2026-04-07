@@ -3,18 +3,18 @@
 
 
 
-# 主要功能
+## 主要功能
 
--**网络安全预案生成**：基于本地《Web-Sec Documentation》PDF 文档，生成结构化、专业的安全预案。
--**混合检索（向量 + 关键字）**：使用 FAISS（或内存向量库）与 Elasticsearch 进行文档召回。
--**重排序（Rerank）优化**：对召回文档进行精排，提升上下文质量。
--**联网搜索补充**：当本地文档信息不足时，通过 DuckDuckGo + trafilatura 获取最新信息。
--**Oracle 数据库巡检工具**：调用外部脚本生成 HTML 报告，并在界面中提供下载。
--**智能对话管理**：自动判断用户意图，区分通用问答与专业安全查询。
+- **网络安全预案生成**：基于本地《Web-Sec Documentation》PDF 文档，生成结构化、专业的安全预案。
+- ***混合检索（向量 + 关键字）**：使用 FAISS（或内存向量库）与 Elasticsearch 进行文档召回。
+- **重排序（Rerank）优化**：对召回文档进行精排，提升上下文质量。
+- **联网搜索补充**：当本地文档信息不足时，通过 DuckDuckGo + trafilatura 获取最新信息。
+- **Oracle 数据库巡检工具**：调用外部脚本生成 HTML 报告，并在界面中提供下载。
+- **智能对话管理**：自动判断用户意图，区分通用问答与专业安全查询。
 
 
 
-# 环境要求
+## 环境要求
 ```
 操作系统：Windows / Linux
 Python：3.10.17
@@ -25,8 +25,8 @@ Oracle 巡检脚本（可选）：需提前准备 main_oracle.py 及相关数据
 
 
 
-# 快速开始
-1. 安装 Elasticsearch（可选）
+## 快速开始
+### 安装 Elasticsearch（可选）
 若需要使用关键字检索，请先安装 Elasticsearch 并启动：
 
 ```bash
@@ -37,14 +37,14 @@ elasticsearch.bat
 
 
 
-2. 创建并激活 Conda 环境
+### 创建并激活 Conda 环境
 ```bash
 conda create -n rag_cyber python=3.10.17
 conda activate rag_cyber
 ```
 
 
-3. 安装依赖
+### 安装依赖
 进入项目根目录（包含 requirements.txt）后执行：
 
 ```bash
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 
-4. 配置 API 密钥
+### 配置 API 密钥
 在代码文件 rag_cyber.py 中设置通义千问 API 密钥：
 
 ```python
@@ -60,14 +60,14 @@ os.environ["TONGYI_API_KEY"] = "sk-xxxxxx"
 ```
 
 
-5. 准备模型与文档
+### 准备模型与文档
 ```
 Embedding 模型：默认路径为 G:\BiShe\cyber\models\xiaobu-embedding-v2，请确保该路径存在或自行修改。
 PDF 文档：默认使用 G:\BiShe\cyber\data_pdf\merged_pdfs\websec-readthedocs-io-zh-latest.pdf，请根据实际情况修改代码中的路径。
 ```
 
 
-6. 启动应用
+### 启动应用
 ```bash
 streamlit run rag_cyber.py
 ```
@@ -101,17 +101,17 @@ cyber/                                 # 项目根目录
 
 
 
-# 使用说明
-```
-利用本地知识库生成预案：
+## 使用说明
+
+### 利用本地知识库生成预案：
 “生成一份完整的企业 Web 应用网络安全防护与应急处置预案”
 
-数据库巡检：
+### 数据库巡检：
 先在侧边栏上传 .nmon / .txt / .log 等文件，然后输入：
 “开始数据库巡检”
 系统将调用 Oracle 巡检工具，并在回复中提供 HTML 报告下载按钮。
 
-联网查询：
+### 联网查询：
 “2024年最新的 Log4j 漏洞修复方案是什么？”
 ```
 
