@@ -97,6 +97,26 @@ cyber/                                 # 项目根目录
 └── tool_DataCheck.py                  # 调用Oracle 数据库检查工具函数
 '''
 
+```
+graphrag-workbench/
+├── app/                    # Next.js App Router
+│   ├── api/               # API routes for data management
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx           # Main application page
+├── components/            # React components
+│   ├── ui/               # shadcn/ui components
+│   ├── GraphVisualizer.tsx # 3D visualization engine
+│   ├── CorpusPanel.tsx   # Document management
+│   ├── ChatPanel.tsx     # AI chat interface  
+│   └── Inspector.tsx     # Entity detail viewer
+├── lib/                  # Utility libraries
+│   ├── graphData.ts      # Data models and loaders
+│   ├── forceSimulation.ts # 3D layout algorithms
+│   └── utils.ts          # Helper functions
+├── settings.yaml         # GraphRAG configuration
+└── prompts/              # AI prompt templates
+```
+
 # 使用说明
 
 利用本地知识库生成预案：
