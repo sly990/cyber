@@ -17,7 +17,7 @@ os.environ['HF_ENDPOINT'] = "https://hf-mirror.com"
 
 
 # 设置成自己的密钥
-os.environ["TONGYI_API_KEY"] = "sk-506a5c243ac3445caea6be389b0025fb"  
+os.environ["TONGYI_API_KEY"] = ""  
 
 
 # ======== Streamlit 主程序 ========
