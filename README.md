@@ -73,7 +73,7 @@ streamlit run rag_cyber.py
 
 ## 项目结构
 
-'''
+···
 cyber/                                 # 项目根目录
 ├── code_all_versions/                 # 历史代码版本/备份目录
 ├── data_pdf/                          # PDF 原始数据目录
@@ -95,27 +95,9 @@ cyber/                                 # 项目根目录
 ├── requirements.txt                   # Python 依赖列表
 ├── rerank.py                          # 重排序模块
 └── tool_DataCheck.py                  # 调用Oracle 数据库检查工具函数
-'''
+···
 
-```
-graphrag-workbench/
-├── app/                    # Next.js App Router
-│   ├── api/               # API routes for data management
-│   ├── layout.tsx         # Root layout component
-│   └── page.tsx           # Main application page
-├── components/            # React components
-│   ├── ui/               # shadcn/ui components
-│   ├── GraphVisualizer.tsx # 3D visualization engine
-│   ├── CorpusPanel.tsx   # Document management
-│   ├── ChatPanel.tsx     # AI chat interface  
-│   └── Inspector.tsx     # Entity detail viewer
-├── lib/                  # Utility libraries
-│   ├── graphData.ts      # Data models and loaders
-│   ├── forceSimulation.ts # 3D layout algorithms
-│   └── utils.ts          # Helper functions
-├── settings.yaml         # GraphRAG configuration
-└── prompts/              # AI prompt templates
-```
+
 
 # 使用说明
 
