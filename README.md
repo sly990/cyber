@@ -5,7 +5,7 @@
 
 ## 主要功能
 
-- **网络安全预案生成**：基于本地《Web-Sec Documentation》PDF 文档，生成结构化、专业的安全预案。
+- **网络安全预案生成**：基于本地文档，生成结构化、专业的安全预案。
 - **混合检索（向量 + 关键字）**：使用 FAISS（或内存向量库）与 Elasticsearch 进行文档召回。
 - **重排序（Rerank）优化**：对召回文档进行精排，提升上下文质量。
 - **联网搜索补充**：当本地文档信息不足时，通过 DuckDuckGo + trafilatura 获取最新信息。
@@ -63,7 +63,7 @@ os.environ["TONGYI_API_KEY"] = "sk-xxxxxx"
 ### 准备模型与文档
 ```
 Embedding 模型：默认路径为 G:\BiShe\cyber\models\xiaobu-embedding-v2，请确保该路径存在或自行修改。
-PDF 文档：默认使用 G:\BiShe\cyber\data_pdf\merged_pdfs\websec-readthedocs-io-zh-latest.pdf，请根据实际情况修改代码中的路径。
+PDF 文档：默认使用 G:\BiShe\cyber\data_pdf\merged_pdfs，请根据实际情况修改代码中的路径。
 ```
 
 
